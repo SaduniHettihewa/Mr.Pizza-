@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    width: auto;
+    height: auto;
+    
+  
+}
+
+.topnav {
+    background-color: rgb(3, 3, 3);
+    overflow: hidden;
+   margin-left: 50%;
+   text-align: justify;
+   
+
+  }
+  
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+ 
+  .topnav a:hover {
+    background-color: rgb(200, 201, 157);
+    color: black;
+  }
+  
+
+  .topnav a.active {
+    background-color: #dba308;
+    color: rgb(2, 1, 1);
+  }
+ table{
+    align-content: center;
+ }
+
+ .logoanimation{
+    transition: transform .7s ease-in-out;
+ }
+ .logoanimation:hover{
+    transform: rotate(360deg);
+ }
+.list{
+  color: rgb(252, 252, 252);
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+.listname{
+  color: rgb(248, 212, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+
+.recipetable{
+  align-content: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+th{
+  padding: 10px;
+}
+footer {
+  text-align: center;
+  padding-bottom: 0;
+  width: 100%;
+  height: 5%;
+  background-color: rgb(248, 164, 9);
+  color: white;
+
+}
+.button1{
+  background-color: rgb(248, 164, 9);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a{
+  color: rgb(247, 247, 247);
+  font-size: 20px;
+  padding: 10px;
+}
+
+a:hover{
+  color: rgb(6, 100, 61);
+}
